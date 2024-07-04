@@ -3,11 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FlexLayoutAlignContent.MainPage">
 
-    <FlexLayout BackgroundColor="LightGray" Direction="Row" AlignContent="SpaceBetween" AlignItems="Center">
-        <Label Padding="5" VerticalTextAlignment="Center" Text="First" BackgroundColor="OrangeRed" />
-        <Label Padding="5" VerticalTextAlignment="Center" Text="Second" Background="Red" />
-        <Label Padding="5" VerticalTextAlignment="Center" Text="Third" Background="Purple" />
-        <Label Padding="5" VerticalTextAlignment="Center" Text="Fourth" Background="Blue" />
+    <FlexLayout BackgroundColor="LightGray" Direction="Row" JustifyContent="SpaceBetween" AlignItems="Center">
+        <Label Padding="5" VerticalTextAlignment="Center" Text="First" BackgroundColor="OrangeRed" FlexLayout.Grow="0" />
+        <Label Padding="5" VerticalTextAlignment="Center" Text="Second" Background="Red" FlexLayout.Grow="0" />
+        <Label Padding="5" VerticalTextAlignment="Center" Text="Third" Background="Purple" FlexLayout.Grow="0" />
+        <Label Padding="5" VerticalTextAlignment="Center" Text="Fourth" Background="Blue" FlexLayout.Grow="0" />
     </FlexLayout>
 
 </ContentPage>
